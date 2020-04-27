@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+body {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: #90a4ae;
+    background: linear-gradient(40deg, #00b8d4 12%,#18ffff 48%,#80deea 59%,#e0f7fa 100%) fixed;
+	padding: 40px 15px;
+	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+    
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .login-form{
+    display: flex;
+	flex-direction: column;
+    width: 50%;
+    height: 90vh;
+	box-sizing: border-box;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+	padding: 60px 40px;
+	flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.wrapper .login-form .login-header .login-message {
+    font-size: 1.5em;
+    font-weight: 300;
+		letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+.wrapper .login-form .buttons{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.wrapper .login-form .buttons .fab .fa-facebook-square .fa-discord .fa-slack{
+    margin: 2% 10%;
+    color: #fff;
+    border-radius: 7px;
+}
+.wrapper .login-form .or{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: rgb(97, 97, 97);
+}
+.wrapper .login-form label{
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.button1{
+    font-size: 1.1em;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 8px 32px;
+    margin-bottom: 55px;
+    border-radius: 5px;
+    background: #00b8d4 ;
+    color: #f3f3f3;
+    border: 0px;
+}
+
+
+.img{
+    background-image: url(./pexels-photo-2899107\ copy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 90vh;
+
+}
+.title{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 50px;
+    color: #00b8d4;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 auto;
+    margin-bottom: 2px;
+}
+.page-description{
+    padding: 0 auto;
+    font-size: 30px;
+    color: #80deea;
+    text-align: center;
+    margin-top: 1px;
+}
